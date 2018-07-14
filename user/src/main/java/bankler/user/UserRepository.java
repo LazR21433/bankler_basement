@@ -1,4 +1,4 @@
-package javamonster.rehab;
+package bankler.user;
 
 import java.util.HashMap;
 import java.util.Map;

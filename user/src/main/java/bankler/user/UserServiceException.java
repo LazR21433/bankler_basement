@@ -1,4 +1,4 @@
-package javamonster.rehab;
+package bankler.user;
 
 public class UserServiceException extends Exception {
 
