@@ -23,8 +23,8 @@ public class UserController {
 
 	@RequestMapping(path = "/user", method = POST)
 	public User user(
-			@RequestParam(value = "firstname") String firstName,
-			@RequestParam(value = "lastname") String lastName,
+			@RequestParam(value = "firstName") String firstName,
+			@RequestParam(value = "lastName") String lastName,
 			@RequestParam(value = "email") String email,
 			@RequestParam(value = "password") String password)
 			throws UserServiceException {
